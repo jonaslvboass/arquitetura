@@ -23,19 +23,30 @@ Este não é um material teórico para ficar na gaveta. É um **guia prático e 
 
 ## Índice de Seções
 
-1. [O que é e o que não é Arquitetura de Software?](1.md)
-2. [Qualidade de Software](2.md)
-3. [Decisões Arquiteturais e Trade-offs](3.md)
-4. [Documentação Arquitetural](4.md)
-5. [Propriedades Fundamentais em Projetos de Software](5.md)
-6. [Princípios de Desenvolvimento de Software (com foco em SOLID)](6.md)
-7. [Padrões e Estilos Arquiteturais](7.md)
-8. [Padrões de Projeto](8.md)
-9. [Refatoração](9.md)
+1. [O que é e o que não é Arquitetura de Software?](#1-o-que-é-e-o-que-não-é-arquitetura-de-software)
+2. [Qualidade de Software](#2-qualidade-de-software)
+3. [Decisões Arquiteturais e Trade-offs](#3-decisões-arquiteturais-e-trade-offs)
+4. [Documentação Arquitetural](#4-documentação-arquitetural)
+   - 4.1 [Modelo C4](#41-modelo-c4)
+   - 4.2 [Diagrama de Caso de Uso (UML)](#42-diagrama-de-caso-de-uso-uml)
+   - 4.3 [Diagrama de Classes (UML)](#43-diagrama-de-classes-uml)
+   - 4.4 [Diagrama de Sequência (UML)](#44-diagrama-de-sequência-uml)
+5. [Propriedades Fundamentais em Projetos de Software](#5-propriedades-fundamentais-em-projetos-de-software)
+6. [Princípios de Desenvolvimento de Software (com foco em SOLID)](#6-princípios-de-desenvolvimento-de-software-com-foco-em-solid)
+7. [Padrões e Estilos Arquiteturais](#7-padrões-e-estilos-arquiteturais)
+   - 7.1 [Padrão MVC (Model-View-Controller)](#71-padrão-mvc-model-view-controller)
+   - 7.2 [Padrão SOA (Service-Oriented Architecture)](#72-padrão-soa-service-oriented-architecture)
+   - 7.3 [Padrão Broker](#73-padrão-broker)
+   - 7.4 [Padrão MVVM (Model-View-ViewModel)](#74-padrão-mvvm-model-view-viewmodel)
+8. [Padrões de Projeto](#8-padrões-de-projeto)
+9. [Refatoração](#9-refatoração)
+10. [Conclusão](#conclusão)
 
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 # 1. O que é e o que não é Arquitetura de Software?
 
@@ -88,6 +99,8 @@ A arquitetura é **parte da engenharia de software**, mas com foco específico e
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 # 2. Qualidade de Software
 
@@ -154,6 +167,8 @@ Ao levantar requisitos de um sistema, pergunte:
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 # 3. Decisões Arquiteturais e Trade-offs
 
@@ -235,6 +250,8 @@ Adotaremos PostgreSQL como banco relacional por ser robusto, open source e com s
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 # 4. Documentação Arquitetural
 
@@ -319,6 +336,8 @@ Uma abordagem moderna e prática que define 4 níveis de abstração para visual
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 ## 4.1 Modelo C4
 
 O **Modelo C4** é uma abordagem moderna para documentação arquitetural proposta por Simon Brown, com o objetivo de **visualizar a arquitetura de software em diferentes níveis de abstração**, de forma simples e clara.
@@ -390,6 +409,8 @@ O **Modelo C4** é uma abordagem moderna para documentação arquitetural propos
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 ## 4.2 Diagrama de Caso de Uso (UML)
 
 O **diagrama de caso de uso** é uma das ferramentas mais populares da UML (Unified Modeling Language) e serve para **representar as funcionalidades principais de um sistema do ponto de vista dos usuários** (atores).
@@ -445,6 +466,8 @@ Ele **não descreve como o sistema será implementado**, mas **o que ele deve fa
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 ## 4.3 Diagrama de Classes (UML)
 
@@ -506,6 +529,8 @@ Um sistema de vendas pode ter:
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 ## 4.4 Diagrama de Sequência (UML)
 
 O **diagrama de sequência** é um tipo de diagrama comportamental da UML que mostra **como os objetos interagem ao longo do tempo**, destacando a **ordem das mensagens trocadas** entre eles para realizar uma funcionalidade.
@@ -563,6 +588,8 @@ No caso de um cliente realizando uma compra:
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 # 5. Propriedades Fundamentais em Projetos de Software
 
@@ -647,6 +674,8 @@ Descreve o **nível de dependência entre dois módulos**.
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 # 6. Princípios de Desenvolvimento de Software (com foco em SOLID)
 
 ## 🔍 Por que princípios são importantes?
@@ -726,6 +755,8 @@ Princípios de desenvolvimento orientam a criação de sistemas mais **claros**,
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 # 7. Padrões e Estilos Arquiteturais
 
 ## 🧩 O que são estilos arquiteturais?
@@ -798,6 +829,8 @@ Estilos arquiteturais são **modelos estruturais amplos** que orientam a forma c
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 ## 7.1 Padrão MVC (Model-View-Controller)
 
 O padrão **MVC (Model-View-Controller)** é uma das abordagens mais consagradas no desenvolvimento de software, especialmente em aplicações com interface gráfica ou sistemas web.
@@ -863,6 +896,8 @@ Imagine um sistema de login:
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 ## 7.2 Padrão SOA (Service-Oriented Architecture)
 
@@ -996,6 +1031,8 @@ Em vez de um sistema monolítico centralizado, a aplicação é dividida em **v�
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 ## 7.3 Padrão Broker
 
 O **padrão arquitetural Broker** é utilizado para construir sistemas distribuídos com **múltiplos componentes que interagem indiretamente**, por meio de um intermediário chamado **broker** (ou "corretor").
@@ -1079,6 +1116,8 @@ Neste cenário:
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 ## 7.4 Padrão MVVM (Model-View-ViewModel)
 
@@ -1182,6 +1221,8 @@ export default {
 
 ## <br><br>
 
+[Índice](#índice-de-seções)
+
 # 8. Padrões de Projeto
 
 ## 🔍 O que são padrões de projeto?
@@ -1256,6 +1297,8 @@ Padrões de projeto (_Design Patterns_) são **soluções reutilizáveis e compr
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 # 9. Refatoração
 
@@ -1341,6 +1384,8 @@ Além do código, a refatoração pode atingir **níveis arquiteturais**, como:
 ---
 
 ## <br><br>
+
+[Índice](#índice-de-seções)
 
 # Conclusão
 
